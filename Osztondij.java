@@ -12,6 +12,8 @@ class Osztondij {
     System.out.print("Osztályzatok átlaga: ");
     double gradesMean = sc.nextDouble();
 
+    sc.close();
+
     double index = creditPoints * gradesMean / 30;
 
     System.out.println("Ösztöndíjindexe: " + index); 
